@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "posthtml-beautify": {
+      "rules": {
+        "blankLines": false
+      }
+    },
+    "posthtml-expressions": {
+      "locals": {
+        "href_prefix": "/"
+      }
+    }
+  }
+}
